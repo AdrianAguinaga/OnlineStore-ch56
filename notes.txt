@@ -1,0 +1,12 @@
+1) Creaate venv
+WIN py -m venv venv
+MAC python3 -m venv venv
+
+THIS IS THE INSTRUCTION THAT YOU NEED TO RUN EVERYTIME THAT YOU WANT TO USE YOUR SERVER
+2) Activate the venv
+MAC source venv/bin/activate
+WIN venv\Scripts\activate
+
+3) install flask
+WIN py -m pip install flask
+MAC python3 -m pip install flask
