@@ -4,27 +4,22 @@ from config import db
 
 app = Flask(__name__)
 
-
 @app.route("/")
 def hello_world():
     return "<p>Hello, World CH56!</p>"
 
-
 @app.get("/test")
 def test():
     return "This is a test endpoint 1.0."
-
 
 @app.get("/home")
 def home():
     print("Home endpoint accessed")
     return "Welcome to the home page!"
 
-
 @app.get("/users")
 def get_users():
     return {"users": ["Alice", "Bob", "Charlie"]}
-
 
 @app.get("/api/about")
 def about():
